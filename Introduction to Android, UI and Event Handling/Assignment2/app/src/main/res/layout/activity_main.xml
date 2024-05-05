@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="364dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/deal_no_deal_logo" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewChooseCases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/chooseFour"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageViewCase1"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewChooseCases"
+        app:srcCompat="@drawable/suitcase_position_1" />
+
+    <ImageView
+        android:id="@+id/imageViewCase2"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewCase1"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase1"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCase1"
+        app:srcCompat="@drawable/suitcase_position_2" />
+
+    <ImageView
+        android:id="@+id/imageViewReward1"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase2"
+        app:layout_constraintTop_toTopOf="@+id/imageViewCase2"
+        app:srcCompat="@drawable/reward_1" />
+
+    <ImageView
+        android:id="@+id/imageViewReward10"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="10"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward1"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward1"
+        app:srcCompat="@drawable/reward_10" />
+
+    <Button
+        android:id="@+id/buttonDeal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/deal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintEnd_toStartOf="@+id/space"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNoDeal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/noDeal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/space" />
+
+    <Space
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCase3"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCase1"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase1"
+        app:srcCompat="@drawable/suitcase_position_3" />
+
+    <ImageView
+        android:id="@+id/imageViewCase4"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase2"
+        app:srcCompat="@drawable/suitcase_position_4" />
+
+    <ImageView
+        android:id="@+id/imageViewCase5"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCase3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase3"
+        app:srcCompat="@drawable/suitcase_position_5" />
+
+    <ImageView
+        android:id="@+id/imageViewCase6"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase4"
+        app:srcCompat="@drawable/suitcase_position_6" />
+
+    <ImageView
+        android:id="@+id/imageViewCase7"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCase5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase5"
+        app:srcCompat="@drawable/suitcase_position_7" />
+
+    <ImageView
+        android:id="@+id/imageViewCase8"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase7"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase6"
+        app:srcCompat="@drawable/suitcase_position_8" />
+
+    <ImageView
+        android:id="@+id/imageViewCase9"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCase7"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase7"
+        app:srcCompat="@drawable/suitcase_position_9" />
+
+    <ImageView
+        android:id="@+id/imageViewCase10"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:clickable="true"
+        android:tag="undecided"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCase9"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCase8"
+        app:srcCompat="@drawable/suitcase_position_10" />
+
+    <ImageView
+        android:id="@+id/imageViewReward50"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="50"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward10"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward10"
+        app:srcCompat="@drawable/reward_50" />
+
+    <ImageView
+        android:id="@+id/imageViewReward100"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="100"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward50"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward50"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward50"
+        app:srcCompat="@drawable/reward_100" />
+
+    <ImageView
+        android:id="@+id/imageViewReward1000"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="1000"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward300"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward300"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward300"
+        app:srcCompat="@drawable/reward_1000" />
+
+    <ImageView
+        android:id="@+id/imageViewReward10000"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="10000"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward1000"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward1000"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward1000"
+        app:srcCompat="@drawable/reward_10000" />
+
+    <ImageView
+        android:id="@+id/imageViewReward100000"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="100000"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward50000"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward50000"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward50000"
+        app:srcCompat="@drawable/reward_100000" />
+
+    <ImageView
+        android:id="@+id/imageViewReward300"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="300"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward100"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward100"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward100"
+        app:srcCompat="@drawable/reward_300" />
+
+    <ImageView
+        android:id="@+id/imageViewReward50000"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="50000"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward10000"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward10000"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward10000"
+        app:srcCompat="@drawable/reward_50000" />
+
+    <ImageView
+        android:id="@+id/imageViewReward500000"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:tag="500000"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewReward100000"
+        app:layout_constraintStart_toStartOf="@+id/imageViewReward100000"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewReward100000"
+        app:srcCompat="@drawable/reward_500000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

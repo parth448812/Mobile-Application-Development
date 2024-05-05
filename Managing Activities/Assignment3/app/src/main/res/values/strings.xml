@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+    <string name="welcome">Welcome !!</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="select">Select</string>
+    <string name="profile">Profile</string>
+
+    <string name="identification">Identification Info</string>
+    <string name="name_label">Name:</string>
+    <string name="email_label">Email:</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="role_label">Role:</string>
+    <string name="student">Student</string>
+    <string name="employee">Employee</string>
+    <string name="other">Other</string>
+
+    <string name="demographic">Demographic Info:</string>
+    <string name="education_label">Education:</string>
+    <string name="marital_label">Marital Status:</string>
+    <string name="living_label">Living Status:</string>
+    <string name="income_label">Income:</string>
+    <string name="NA">N/A</string>
+
+    <string name="select_education">Select Education Level</string>
+    <string name="select_education_question">What is the highest degree or level of education you have completed?</string>
+    <string name="below_high_school">Below High School</string>
+    <string name="high_school">High School</string>
+    <string name="bachelors">Bachelor\'s Degree</string>
+    <string name="masters">Master\'s Degree</string>
+    <string name="phd">Ph.D. or Higher</string>
+    <string name="trade">Trade School</string>
+    <string name="prefer_not">Prefer not to say</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="select_marital">Select Marital Status</string>
+    <string name="select_marital_question">What is your marital status?</string>
+    <string name="not_married">Not Married</string>
+    <string name="married">Married</string>
+
+    <string name="select_living">Select Living Status</string>
+    <string name="select_living_question">Which of the following describes your living status?</string>
+    <string name="homeowner">Homeowner</string>
+    <string name="renter">Renter</string>
+    <string name="lessee">Lessee</string>
+
+    <string name="household_income">Household Income</string>
+    <string name="income_0">&lt;$25K</string>
+    <string name="income_1">$25K to &lt;$50K</string>
+    <string name="income_2">&lt;$50K to &lt;$100K</string>
+    <string name="income_3">$100K to &lt;$200K</string>
+    <string name="income_4">&gt;$200K</string>
+
+</resources>

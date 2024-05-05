@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Assignment11</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_label">Submit</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="name_label">Full Name</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_label">Login</string>
+    <string name="logout_label">Logout</string>
+    <string name="enter_message_label">Enter Message</string>
+    <string name="create_message_label">Create Message</string>
+    <string name="mailbox_label">Mailbox</string>
+    <string name="create_account_label">Create New Account</string>
+    <string name="forum_desc">Message Description</string>
+    <string name="forum_title">Message Title</string>
+    <string name="receiver">Receiver:</string>
+    <string name="na">N/A</string>
+    <string name="select_receiver">Select</string>
+    <string name="users">Users</string>
+    <string name="create">Create</string>
+    <string name="blocked">Blocked Users</string>
+    <string name="enter_reply">Enter Reply</string>
+    <string name="search">Search for Message by Title</string>
+    <string name="enter_prefix">Enter Message Title</string>
+</resources>

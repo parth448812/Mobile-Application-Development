@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Assignment04</string>
+    <string name="student">Student</string>
+    <string name="employee">Employee</string>
+    <string name="other">Other</string>
+    <string name="below">Below High School</string>
+    <string name="high_school">High School</string>
+    <string name="bachelors">Bachelor\'s Degree</string>
+    <string name="masters">Master\'s Degree</string>
+    <string name="phd">Ph.D or Higher</string>
+    <string name="trade">Trade School</string>
+    <string name="prefer_not">Prefer Not to Say</string>
+    <string name="not_married">Not Married</string>
+    <string name="married">Married</string>
+    <string name="homeowner">Home Owner</string>
+    <string name="renter">Renter</string>
+    <string name="lessee">Lessee</string>
+
+    <string name="income_0">&lt;$25K</string>
+    <string name="income_1">$25K to &lt;$50K</string>
+    <string name="income_2">&lt;$50K to &lt;$100K</string>
+    <string name="income_3">$100K to &lt;$200K</string>
+    <string name="income_4">&gt;$200K</string>
+</resources>

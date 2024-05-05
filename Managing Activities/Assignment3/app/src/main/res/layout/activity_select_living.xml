@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="18dp"
+    android:layout_height="match_parent"
+    tools:context=".SelectLivingActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_living"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/select_living_question"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupLiving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+        <RadioButton
+            android:id="@+id/radioButtonHomeowner"
+            android:layout_width="match_parent"
+            android:checked="true"
+            android:layout_height="wrap_content"
+            android:text="@string/homeowner" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/renter" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLessee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lessee" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/other" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLivingPreferNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prefer_not" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonLivingSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/space3" />
+
+    <Button
+        android:id="@+id/buttonLivingCancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/space3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Space
+        android:id="@+id/space3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

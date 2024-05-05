@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment_12</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit_label">Submit</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="visualize">Visualize</string>
+    <string name="create">Create</string>
+    <string name="logged_entries">Logged Entries</string>
+    <string name="weight">"Current Weight (lbs): "</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="sleep_hours">"Hours of Sleep: "</string>
+    <string name="sleep_quality">"Sleep Quality: "</string>
+    <string name="exercise_hours">"Hours of Exercise: "</string>
+    <string name="data_time">"Date: "</string>
+    <string name="na">N/A</string>
+    <string name="select">Select</string>
+    <string name="default_weight">0.0</string>
+    <string name="time">"Time: "</string>
+    <string name="hours_slept_visualize">Hours Slept Visualization</string>
+    <string name="hours_exercise_visualize">Hours Exercise Visualization</string>
+    <string name="weight_visualize">Weight Visualization</string>
+    <string name="quality_slept_visualize">Sleep Quality Visualization</string>
+
+</resources>

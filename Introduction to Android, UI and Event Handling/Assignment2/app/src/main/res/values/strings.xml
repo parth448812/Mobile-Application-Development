@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+
+    <string name="chooseFour">Choose 4 Cases</string>
+    <string name="chooseThree">Choose 3 Cases</string>
+    <string name="chooseTwo">Choose 2 Cases</string>
+    <string name="chooseOne">Choose 1 Cases</string>
+
+    <string name="bankDeal">Bank Deal is $</string>
+    <string name="Won">You Won $</string>
+
+    <string name="reset">Reset</string>
+    <string name="deal">Deal</string>
+    <string name="noDeal">No Deal</string>
+
+</resources>

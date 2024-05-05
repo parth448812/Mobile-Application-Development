@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:topLeftRadius="25dp"
+        android:topRightRadius="25dp"
+        android:bottomLeftRadius="25dp"
+        android:bottomRightRadius="0dp" /> <!-- Bottom right corner not curved for sender -->
+    <solid android:color="@color/blue" /> <!-- Background color of the card -->
+</shape>
+
